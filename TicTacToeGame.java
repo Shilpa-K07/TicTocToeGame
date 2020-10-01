@@ -68,9 +68,9 @@ public class TicTacToeGame
 	/* UC 5 */
 	public void makeMove(int location)
 	{
-			System.out.println("Moving to Location: "+location);
-			boardArray[location] = computerChoice.charAt(0);
-			showBoard();
+		System.out.println("Moving to Location: "+location);
+		boardArray[location] = computerChoice.charAt(0);
+		showBoard();
    	}
 
 	public static void main(String[] args)
